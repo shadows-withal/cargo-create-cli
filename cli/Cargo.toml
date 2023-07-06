@@ -1,0 +1,20 @@
+[package]
+name = "cargo-create-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["liv <shadows_withal@fastmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+camino = "1.1.4"
+cargo-create-cli-libraries = { version = "0.1.0", path = "../libraries" }
+clap = { version = "4.3.10", features = ["derive"] }
+console = "0.15.7"
+dialoguer = { version = "0.10.4", features = ["fuzzy-select"] }
+miette = "5.9.0"
+minijinja = "1.0.3"
+serde = { version = "1.0.166", features = ["derive"] }
+thiserror = "1.0.41"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"

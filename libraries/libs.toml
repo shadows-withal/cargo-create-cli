@@ -1,0 +1,16 @@
+[[libraries]]
+name = "clap"
+description = "A full-featured CLI argument parser."
+axo_use = true
+create_cli = true
+category = "argparsing"
+
+[[libraries]]
+name = "lexopt"
+description = "Very minimal argument parser, pedantic about correctness."
+category = "argparsing"
+
+[[libraries]]
+name = "pico-args"
+description = "Also very minimal, less pedantic and more ergonomic."
+category = "argparsing"
